@@ -3,14 +3,14 @@
 // license that can be found in the LICENSE file.
 
 // Package openpgp implements high level operations on OpenPGP messages.
-package openpgp // import "github.com/btcsuite/golangcrypto/openpgp"
+package openpgp // import "github.com/zeusyf/golangcrypto/openpgp"
 
 import (
 	"crypto"
 	_ "crypto/sha256"
-	"github.com/btcsuite/golangcrypto/openpgp/armor"
-	"github.com/btcsuite/golangcrypto/openpgp/errors"
-	"github.com/btcsuite/golangcrypto/openpgp/packet"
+	"github.com/zeusyf/golangcrypto/openpgp/armor"
+	"github.com/zeusyf/golangcrypto/openpgp/errors"
+	"github.com/zeusyf/golangcrypto/openpgp/packet"
 	"hash"
 	"io"
 	"strconv"

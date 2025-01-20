@@ -7,7 +7,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/btcsuite/golangcrypto/ssh"
+	"github.com/zeusyf/golangcrypto/ssh"
 )
 
 func TestServer(t *testing.T) {
